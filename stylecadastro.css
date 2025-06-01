@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  font-family: "Poppins", sans-serif;
+  font-style: inherit;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0d1b2a, #1b263b);
+}
+
+.container-login {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  width: 300px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.titulo-login {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #e0e1dd;
+}
+
+.campo-entrada {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #415a77;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: #e0e1dd;
+}
+
+.campo-entrada::placeholder {
+  color: #a8b2d1;
+}
+
+.botao-login {
+  width: 100%;
+  padding: 0.75rem;
+  background: #415a77;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.botao-login:hover {
+  background: #1b263b;
+}
+
+.cadastro-texto {
+  text-align: center;
+  margin-top: 1rem;
+  color: #e0e1dd;
+  font-size: 0.9rem;
+}
+
+.link-cadastro {
+  color: #7289da;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.link-cadastro:hover {
+  color: #a8b2d1;
+  text-decoration: underline;
+}
